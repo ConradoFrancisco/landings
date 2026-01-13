@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Automecánica | Electrónica y Competición</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;700;900&family=Russo+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-text">MV</span>
+            <span class="logo-sub">AUTOMECÁNICA</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">INICIO</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#galeria">PROYECTOS</a></li>
+            <li><a href="#contacto" class="btn-gradient">CONTACTANOS</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="img/hotrod.png" alt="Camioneta Hot Rod Custom">
+            <div class="overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h3>PODER & ESTILO</h3>
+            <h1>MECÁNICA <span class="text-gradient">CUSTOM</span></h1>
+            <p>Especialistas en Inyección Electrónica, Suspensión Deportiva y Preparación de Motores.</p>
+            <div class="hero-btns">
+                <a href="#servicios" class="btn btn-primary">VER SERVICIOS</a>
+                <a href="#contacto" class="btn btn-outline">TURNOS</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Strip -->
+    <section id="servicios" class="services-strip">
+        <div class="service-box">
+            <i class="fa-solid fa-microchip"></i>
+            <h4>INYECCIÓN ELECTRÓNICA</h4>
+            <p>Programación y diagnóstico avanzado.</p>
+        </div>
+        <div class="service-box active">
+            <i class="fa-solid fa-car-burst"></i>
+            <h4>SUSPENSIÓN DEPORTIVA</h4>
+            <p>Trabajos a medida, neumática y competición.</p>
+        </div>
+        <div class="service-box">
+            <i class="fa-solid fa-wrench"></i>
+            <h4>MECÁNICA GENERAL</h4>
+            <p>Naftero y Diesel. Mantenimiento integral.</p>
+        </div>
+    </section>
+
+    <!-- Showcase / About -->
+    <section id="galeria" class="showcase">
+        <div class="container showcase-container">
+            <div class="showcase-img">
+                <img src="img/sign.png" alt="Cartel MV Automecánica">
+                <div class="experience-badge">
+                    <span>+10</span>
+                    <small>AÑOS</small>
+                </div>
+            </div>
+            <div class="showcase-text">
+                <h2>PASIÓN POR LOS FIERROS</h2>
+                <p>En MV Automecánica no solo reparamos autos, los transformamos. Desde un service convencional hasta
+                    una puesta a punto para track day.</p>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-check"></i> Escaneo multimarca</li>
+                    <li><i class="fa-solid fa-check"></i> Potenciación</li>
+                    <li><i class="fa-solid fa-check"></i> Estética de motor</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contacto">
+        <div class="footer-bg">
+            <div class="container footer-content">
+                <div class="contact-card">
+                    <h2>¿QUERÉS MEJORAR TU AUTO?</h2>
+                    <p>Escribinos y coordinamos una visita al taller.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Vehículo/Modelo">
+                        <button type="submit" class="btn btn-primary">ENVIAR CONSULTA</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>MV AUTOMECÁNICA &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
