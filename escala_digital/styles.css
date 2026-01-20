@@ -127,6 +127,23 @@ nav {
     background: var(--primary-dark);
 }
 
+/* Header Order Control */
+.logo {
+    order: 1;
+}
+
+.nav-links {
+    order: 2;
+}
+
+.btn-whatsapp-header {
+    order: 3;
+}
+
+.menu-toggle {
+    order: 4;
+}
+
 /* Hamburger Menu Toggle */
 .menu-toggle {
     display: none;
@@ -515,6 +532,12 @@ body.menu-open {
         padding: 0.5rem 0.8rem;
         font-size: 0.8rem;
         white-space: nowrap;
+        order: 2;
+    }
+
+    .menu-toggle {
+        display: block;
+        order: 3;
     }
 
     .nav-links {
@@ -532,6 +555,7 @@ body.menu-open {
         border-top: 1px solid rgba(0, 0, 0, 0.05);
         text-align: center;
         z-index: 1000;
+        order: 4;
     }
 
     .nav-links.active {
@@ -541,10 +565,6 @@ body.menu-open {
 
     .nav-links li {
         margin: 1.5rem 0;
-    }
-
-    .menu-toggle {
-        display: block;
     }
 
     /* Animate Hamburger to X */
